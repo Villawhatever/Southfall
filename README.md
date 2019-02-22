@@ -2,8 +2,10 @@
 A rudimentary Slack slash command to query the Comprehensive Rules
 
 # How do I use this?
-Install it [here](https://slack.com/oauth/authorize?scope=incoming-webhook,commands,bot&client_id=20174627574.553569614352), then, for example:
-/cr 104.3a
+Install it [here](https://slack.com/oauth/authorize?scope=incoming-webhook,commands,bot&client_id=20174627574.553569614352), then, for example:  
+
+/cr 104.3a  
+
 /cr 702.136 702.136a
 
 Note that multiple simultaneous rules queries are **space-delimited**. If at least one of the requested rules is valid, you'll get it in the channel from which you requested. If none of them are valid, you'll get a visible-only-to-you error.
